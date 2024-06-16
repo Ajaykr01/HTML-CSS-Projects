@@ -1,0 +1,111 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: url(./Images/wall.jpg);
+    background-size:cover;
+  }
+
+  .first {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+  }
+
+  .first img {
+    width: 80px
+  }
+
+  .first div {
+    color: white;
+    text-align: center;
+  }
+
+  .mid {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 40px;
+  }
+
+  .last {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 18px;
+    font-size: 18px;
+    margin: 8px 10px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover {
+    color: aqua;
+  }
+
+  .btn {
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+    color: white;
+    margin: 15px 10px;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    color: blue;
+  }
+
+
+  .container {
+    color: white;
+    width: 35%;
+    margin: 120px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .formgroup input {
+    text-align: center;
+    border: 2px;
+    margin: 5px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 30px;
+  }
+
+  .yt {
+    position: absolute;
+    margin: 225px 1443px;
+    height: 65px;
+  }
+
+  .git {
+    position: absolute;
+    margin: 290px 1470px;
+    height: 35px;
+  }
+
+  .fb {
+    position: absolute;
+    margin: 175px 1465px;
+    height: 40px;
+  }
+
+  .insta {
+    position: absolute;
+    margin: 120px 1460px;
+    height: 50px;
+  }
